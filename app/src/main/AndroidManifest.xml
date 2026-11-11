@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@drawable/namagram_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/namagram_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <!-- Main Launcher Activity -->
+        <activity
+            android:name=".WelcomeActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DailyPuzzleHubActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DailyMasterGalleryActivity" />
+        <!-- Settings Activity -->
+        <activity
+            android:name=".SettingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SummaryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".DifficultyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HowToPlayActivity"
+            android:exported="false" />
+        <!-- Game & Navigation Activities -->
+        <activity
+            android:name=".TutorialActivity"
+            android:exported="false" />
+        <activity
+            android:name=".TileSelectionActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GameRulesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SinglePlayerLobbyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MultiplayerLobbyActivity"
+            android:exported="false" />
+        <activity
+            android:name=".HighScoresActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AchievementsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".GameActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AiSandboxActivity"
+            android:exported="true" />
+    </application>
+
+</manifest>

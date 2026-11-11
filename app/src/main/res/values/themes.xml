@@ -1,0 +1,10 @@
+<resources>
+    <style name="Base.Theme.NamagramNewest" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+    </style>
+
+    <style name="Theme.NamagramNewest" parent="Base.Theme.NamagramNewest">
+        <!-- Safe for API 29+ devices -->
+        <item name="android:windowBackground">#0F172A</item>
+    </style>
+</resources>

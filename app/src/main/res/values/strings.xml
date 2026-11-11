@@ -1,0 +1,293 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Core Application Strings -->
+    <string name="app_name">Namagram</string>
+    <string name="menu_title">✨ NAMAGRAM ✨</string>
+    <string name="main_menu_title">NAMAGRAM</string>
+    <string name="main_menu_subtitle">The AI-Powered Word Puzzle Game</string>
+    <string name="btn_back_to_hub">Back to Challenge</string>
+    <string name="btn_return_to_daily_hub">🏠 Return to Daily Challenge</string>
+    <string name="tile_option_format">%1$s   %2$d Tiles</string>
+    <string name="tile_selection_title">CHOOSE NUMBER OF TILES</string>
+    <string name="btn_share_daily_status">📤 Share Daily Challenge Status</string>
+    <string name="save_nickname_btn">Save Nickname</string>
+    <!-- Main Menu Dashboard Button Labels -->
+    <string name="btn_single_player">👤 Single Player</string>
+    <string name="btn_single_player_mode">🎮 SINGLE PLAYER MODE</string>
+    <string name="btn_start_solo">▶ Single Player</string>
+    <string name="btn_multiplayer">👥 Multiplayer (Pass &amp; Play)</string>
+    <string name="btn_high_scores">🏆 High Scores</string>
+    <string name="btn_achievements">🏅 Achievements</string>
+    <string name="btn_view_achievements">🏅 View Achievements</string>
+    <string name="btn_how_to_play">📖 How To Play</string>
+    <string name="btn_game_rules">📜 Game Rules</string>
+    <string name="btn_settings">⚙️ Settings</string>
+    <string name="section_game_modes">🎮 GAME MODES</string>
+    <string name="section_progress">📊 PROGRESS &amp; LEADERBOARDS</string>
+    <string name="section_rules">⚙️ RULES &amp; SETTINGS</string>
+    <string name="btn_back_to_menu">🏠 Return to Main Menu</string>
+    <string name="btn_back_to_main_menu">Return to Main Menu</string>
+    <string name="btn_return_main_menu">🏠 RETURN TO MAIN MENU</string>
+    <string name="btn_return_main_menu_label">🏠 RETURN TO MAIN MENU</string>
+
+    <!-- Contextual Toast Feedback Strings -->
+    <string name="toast_game">🎮 Launching Single Player Mode…</string>
+    <string name="toast_multiplayer">👥 Opening Match Setup Lobby…</string>
+    <string name="toast_high_scores">🏆 Loading Saved Leaderboards…</string>
+    <string name="toast_rules">📖 Displaying Rules Framework…</string>
+    <string name="toast_tutorial">🎓 Initializing Onboarding Track…</string>
+
+    <!-- Difficulty Screen Strings -->
+    <string name="diff_title">⚙️ Select Difficulty</string>
+    <string name="diff_easy">Easy (90s, Vowel Assist)</string>
+    <string name="diff_medium">Medium (60s, Limited Rares)</string>
+    <string name="diff_hard">Hard (30s, True Random)</string>
+    <string name="diff_save">💾 Save and Return</string>
+    <string name="toast_saved">✨ Settings Saved!</string>
+    <string name="diff_card_easy">🟢 Easy Mode</string>
+    <string name="diff_card_medium">🔵 Medium Mode</string>
+    <string name="diff_card_hard">🔴 Hard Mode</string>
+    <string name="diff_time_format">⏱️ Time Allowed = %1$d sec.</string>
+    <string name="diff_desc_easy">Generous 90-second timer. Features Vowel Assist, which guarantees a balanced mix of vowels in your letter sequence to make forming sentences much easier.</string>
+    <string name="diff_desc_medium">Balanced 60-second timer. Features Limited Rares, restricting the frequency of difficult letters (like X, Z, Q) for a smoother gameplay flow.</string>
+    <string name="diff_desc_hard">Fast-paced 30-second timer. Features True Random letter generation with no assists — perfect for expert word puzzle masters!</string>
+    <string name="diff_selected_badge">✓ Selected</string>
+
+    <!-- Game Board Strings -->
+    <string name="game_title">🎯 NAMAGRAM BOARD</string>
+    <string name="btn_generate">🎲 Generate Letters</string>
+    <string name="btn_submit">⚡ Submit Sentence</string>
+    <string name="btn_reset_timer">🔄 Reset Timer</string>
+    <string name="input_hint">✍️ Type your Namagram sentence here…</string>
+    <string name="times_up">"⏰ Time's Up!"</string>
+    <string name="toast_validation_fail">⚠️ Sentence rejected! One or more words start with letters that are missing or already used up in your tile pool.</string>
+    <string name="lobby_rounds_title">🔄 Number of Rounds</string>
+    <string name="lobby_target_tiles_title">🧩 Target Tiles (Range: %1$d-%2$d)</string>
+    <string name="lobby_timer_title">⏱️ Round Time Limit</string>
+
+    <!-- Formatted values displayed between the buttons -->
+    <string name="lobby_rounds_value_format">%d Rounds</string>
+    <string name="lobby_tiles_value_format">%d Tiles</string>
+    <string name="lobby_timer_value_format">%d Seconds</string>
+    <!-- Rules Screen Strings -->
+    <string name="rules_header">📖 RULES OF THE GAME</string>
+    <string name="rule_1"><![CDATA[1. The sentence <font color="#EF4444"><b>must</b></font> make sense, both grammatically and in the general sense of the English language. So start your sentence with a capital letter, and end with a terminal mark (. ! ?).]]></string>
+    <string name="rule_2"><![CDATA[2. Every word in the sentence <font color="#EF4444"><b>must</b></font> start with one of your available letter sequence tiles. Tiles can be used in any order, but using them <font color="#EF4444"><b>all</b></font> in exact sequence awards maximum points!]]></string>
+    <string name="rule_3"><![CDATA[3. Only <font color="#EF4444"><b>one</b></font> comma is allowed per sentence, and the sentence must end with a <font color="#EF4444"><b>single</b></font> terminal mark (. ! ?). No multi-sentence submissions.]]></string>
+    <string name="rule_4"><![CDATA[4. The sentence must be <font color="#EF4444"><b>one</b></font> complete sentence, (no full stops to abut two sentences together). Incomplete sentences will <font color="#EF4444"><b>not</b></font> score points.]]></string>
+    <string name="rule_5"><![CDATA[5. The same word cannot be used more than <font color="#EF4444"><b>twice</b></font> in the sentence.]]></string>
+    <string name="rule_6"><![CDATA[6. Sentences <font color="#EF4444"><b>must</b></font> maintain a consistent verb tense, use clear pronouns, and contain at <font color="#EF4444"><b>most</b></font> one proper/personal name.]]></string>
+    <string name="rule_7"><![CDATA[7. <font color="#EF4444"><b>No</b></font> slang or swear words are allowed.]]></string>
+    <string name="rule_8"><![CDATA[8. Inverted commas are allowed <font color="#EF4444"><b>if</b></font> the sentence calls for them.]]></string>
+    <string name="rules_section_header">📜 GAME RULES</string>
+    <string name="rule_numbered_item">%1$d. %2$s</string>
+
+    <!-- Rules Screen Example Strings -->
+    <string name="examples_header">EXAMPLES OF VALID SENTENCES</string>
+    <string name="example_subtext">Notice how the first letter of each word corresponds in order:</string>
+    <string name="example_5_words">**N**ice **a**nimals **m**ake **a**ll **g**reat</string>
+    <string name="example_6_words">**N**ew **a**rt **m**akes **a**ny **g**allery **r**adiant</string>
+    <string name="example_7_words">**N**ight **a**nd **m**oon **a**lways **g**low **r**ight **a**bove</string>
+
+    <!-- Tutorial Screen Strings -->
+    <string name="tutorial_header">🎓 HOW TO PLAY TUTORIAL</string>
+    <string name="tutorial_instructions">You are given 3 to 10 random letters. Create the longest single sentence you can, where each word starts with one of those letters.\n\nPractice below with this target sequence:</string>
+    <string name="btn_test_acronym">🧪 Test My Namagram</string>
+    <string name="btn_menu_label">🏠 Menu</string>
+    <string name="tut_empty">⚠️ Type a sentence first!</string>
+    <string name="tut_too_many">⚠️ Too many words! Max limit is 10.</string>
+    <string name="tut_fail_no_letter">⚠️ The letter \"%1$s\" (from \"%2$s\") is not available in your remaining letter pool!</string>
+    <string name="tut_success">🎉 Excellent! Your sentence successfully used %1$d letters from the pool!</string>
+    <string name="tutorial_examples_header">EXAMPLES OF VALID SENTENCES:</string>
+    <string name="tutorial_example_5">**C**ats **A**lways **N**ap **A**fter **M**idnight</string>
+    <string name="tutorial_example_6">**M**any **A**nimals **R**un **A**cross **G**reen **C**ountryside</string>
+    <string name="tutorial_example_7">**I** **C**an **A**lways **M**ake **G**reat **A**rt **R**egularly</string>
+    <string name="tutorial_protip_header">💡 PRO-TIP FOR MAXIMUM POINTS</string>
+    <string name="tutorial_protip_subtext">Notice how the first letter of each word corresponds in order:</string>
+    <string name="tutorial_example_10_words_Master_Sentence">**N**ew **A**nagram **M**asters **A**lways **G**uess **R**ight **A**nd **M**ake **I**ntelligent **C**hoices</string>
+    <string name="btn_interactive_tutorial">🎓 INTERACTIVE TUTORIAL</string>
+    <string name="tutorial_instruction_text">Here is a 10 letter sequence, create the longest sentence you can, where each word starts with one of those letters. (A.I. is NOT testing here, just the internal dictionary)</string>
+    <string name="btn_test_namagram">TEST MY NAMAGRAM</string>
+    <string name="tutorial_error_empty">⚠️ Please type a sentence first!</string>
+    <string name="tutorial_error_no_match">❌ None of the starting letters matched [N, A, M, A, G, R, A, M, I, C]. Try again!</string>
+
+    <!-- Final Game Layout State Strings -->
+    <string name="default_timer_text">00</string>
+    <string name="default_letters_placeholder">----------</string>
+    <string name="ai_eval_loading">🤖 Expert AI evaluating structural rules…</string>
+    <string name="toast_dict_operational">📚 Dictionary Operational!</string>
+    <string name="toast_dict_still_loading">📚 Dictionary is still loading layout assets…</string>
+    <string name="toast_empty_submission">⚠️ Empty submission scores 0 points.</string>
+    <string name="toast_too_many_words">⚠️ Sentence contains too many words!</string>
+    <string name="toast_invalid_word_msg">⚠️ Rejected: %1$s is not a valid word!</string>
+    <string name="toast_word_recurrence_msg">⚠️ Rejected: Word used more than twice!</string>
+    <string name="scoreboard_output_layout">📊 TOTAL SCORE: %1$d\n🤖 AI Review: %2$s</string>
+
+    <!-- Multiplayer Lobby Strings -->
+    <string name="lobby_title">👥 MULTIPLAYER LOBBY</string>
+    <string name="lobby_nickname_label">👤 Enter Player Nickname:</string>
+    <string name="lobby_nickname_hint">e.g., WordMaster</string>
+    <string name="lobby_rounds_label">🔄 Select Match Rounds:</string>
+    <string name="lobby_btn_launch">🚀 LAUNCH MATCH</string>
+    <string name="lobby_round_singular">🔄 %d Round</string>
+    <string name="lobby_round_plural">🔄 %d Rounds</string>
+    <string name="lobby_timer_label">⏱️ Select Round Time Limit:</string>
+    <string name="lobby_timer_option">⏱️ %d Seconds</string>
+    <string name="lobby_validation_empty_name">⚠️ Please enter a valid player nickname before launching!</string>
+    <string name="lobby_p1_nickname_label">👤 Enter Player 1 Nickname:</string>
+    <string name="lobby_p2_nickname_label">👤 Enter Player 2 Nickname:</string>
+    <string name="lobby_validation_empty_names">⚠️ Please enter valid nicknames for both players!</string>
+    <string name="lobby_target_tiles_format">Target Tiles: %1$d (%2$d-%3$d)</string>
+    <string name="lobby_start_match_btn">Start Match</string>
+    <string name="lobby_card_setup_header">MATCH PARAMETERS</string>
+
+    <!-- Multiplayer Navigation Action Strings -->
+    <string name="btn_next_round">🚀 PROCEED TO NEXT ROUND</string>
+    <string name="multiplayer_round_header_label">🔄 Round %1$d of %2$d | Player: %3$s</string>
+    <string name="scorecard_title">🏆 MATCH SCORECARD 🏆</string>
+    <string name="scorecard_round_row">Round %1$d: %2$s (%3$d pts) vs %4$s (%5$d pts)</string>
+    <string name="scorecard_totals_header">📊 FINAL TOTALS:</string>
+    <string name="scorecard_player_total">👤 %1$s: %2$d pts</string>
+    <string name="scorecard_winner_announcement">🎉 Winner: %1$s</string>
+    <string name="btn_start_my_turn_label">▶️ START MY TURN</string>
+    <string name="multiplayer_turn_announcement_header">👥 UP NEXT TO PLAY:</string>
+    <string name="multiplayer_round_breakdown_title">🔄 ROUND %1$d BREAKDOWN</string>
+    <string name="multiplayer_score_display_format">👤 %1$s: %2$d PTS</string>
+    <string name="multiplayer_aggregate_totals_header">📊 AGGREGATE MATCH TOTALS</string>
+    <string name="multiplayer_winner_declaration_p1">👑 %1$s WINS THE MATCH! 👑</string>
+    <string name="multiplayer_winner_declaration_p2">👑 %1$s WINS THE MATCH! 👑</string>
+    <string name="multiplayer_winner_declaration_draw">🤝 IT IS A PERFECT DRAW GAME! 🤝</string>
+    <string name="multiplayer_running_total_tracker">🎯 Round Performance: +%1$d points\n📊 Running %2$s Total: %3$d points</string>
+    <string name="btn_next_players_turn">🚀 Next Player\'s Turn</string>
+    <string name="return_to_main_menu">🏠 Return to Main Menu</string>
+    <string name="scorecard_full_totals_block">%1$s\n%2$s\n%3$s\n\n%4$s</string>
+    <string name="btn_view_final_match_scores">🏆 View Final Match Scores</string>
+    <string name="multiplayer_aggregate_totals_display">%1$s\n%2$s</string>
+
+    <!-- Match Summary Screen Strings -->
+    <string name="summary_title">🏁 MATCH CONCLUDED</string>
+    <string name="summary_player_header">👤 Player: %1$s</string>
+    <string name="summary_total_score">📊 Final Score: %1$d points</string>
+    <string name="summary_rounds_played">🔄 Completed: %1$d of %2$d Rounds</string>
+    <string name="btn_return_menu">🏠 RETURN TO MAIN MENU</string>
+
+    <!-- Game Over Stat Panel Layout Strings -->
+    <string name="stat_panel_header">📊 MATCH BREAKDOWN PANEL</string>
+    <string name="stat_row_item">Round %1$d Score : %2$d points</string>
+    <string name="stat_average_label">📈 Average Performance: %1$.1f points/round</string>
+
+    <!-- Leaderboard / High Scores Strings -->
+    <string name="leaderboard_title">🏆 HIGH SCORES</string>
+    <string name="btn_clear_scores">🗑️ CLEAR SCORES</string>
+    <string name="leaderboard_empty_msg">No high scores saved yet!</string>
+    <string name="leaderboard_row_entry">#%1$d  -  %2$d points</string>
+    <string name="btn_clear_solo_scores">Clear Solo Scores</string>
+    <string name="btn_clear_multi_scores">Clear Multiplayer Scores</string>
+    <string name="high_scores_title">🏆 Hall of Fame</string>
+    <string name="solo_high_scores_header">🎮 Solo High Score</string>
+    <string name="multiplayer_high_scores_header">👥 Multiplayer High Score</string>
+    <string name="high_score_display_format">%1$s — %2$d pts</string>
+    <string name="high_score_empty_msg">No high score recorded yet!</string>
+    <string name="toast_scores_cleared">🗑️ Leaderboards cleared successfully!</string>
+    <string name="leaderboard_solo_header">🏆 Top 5 Solo High Scores</string>
+    <string name="leaderboard_multi_header">👥 Top 5 Multiplayer Match Scores</string>
+    <string name="high_score_inspect_msg">High Scores inspected (%1$d/5)</string>
+    <string name="toast_solo_cleared">Solo scores cleared</string>
+    <string name="toast_multi_cleared">Multiplayer scores cleared</string>
+
+    <!-- Enhanced Gameplay Board Layout Strings -->
+    <string name="game_board_letters_header">🔠 YOUR TARGET SEQUENCE</string>
+    <string name="game_board_input_header">✍️ CONSTRUCT YOUR NAMAGRAM SENTENCE</string>
+
+    <!-- Scoreboard Highlight Panel Resource Labels -->
+    <string name="score_panel_report_title">📊 MATCH HIGHLIGHTS REPORT</string>
+    <string name="score_panel_ai_label">🤖EXPERT AI ANALYSIS:</string>
+    <string name="score_panel_points_callout">⭐ %1$d PTS</string>
+    <string name="score_panel_bonus_new_record">🔥 NEW PERSONAL BEST HIGH SCORE!</string>
+    <string name="score_panel_bonus_device_best">🏅 Device Best Score: %1$d points</string>
+    <string name="score_panel_round_performance">🎯 Round Performance: +%1$d points\n📊 Running Match Total: %2$d points</string>
+
+    <!-- AI Evaluation & Scoring System Strings -->
+    <string name="ai_evaluation_timeout_msg">⏱️ AI evaluation took too long. Please try submitting again.</string>
+    <string name="ai_checking_loading">🤖 Checking grammar with AI…</string>
+    <string name="ai_checking_failed">⚠️ Evaluation failed. Try again.</string>
+    <string name="checking_sentence_logic">🤖 Checking sentence logic with AI…</string>
+    <string name="score_display_format">⭐ SCORE: %1$d\n\n%2$s</string>
+    <string name="score_rejection_format">⚠️ SCORE: 0\n\nReferee Rejection: %1$s</string>
+    <string name="score_factor_letters_used">🔠 Letters Used as Starts (%1$d/%2$d): +%3$d pts\n</string>
+    <string name="score_factor_all_used">🌟 ALL LETTERS USED BONUS: +25 pts\n</string>
+    <string name="score_factor_strict_order">💎 PERFECT SEQUENCE ORDER BONUS: +50 pts\n</string>
+    <string name="evaluation_error_format">Evaluation Error: %s</string>
+
+    <!-- Scoring Rules -->
+    <string name="scoring_header">⭐ SCORING SYSTEM</string>
+    <string name="scoring_point_1"><![CDATA[1. You get points for <font color="#EF4444"><b>each</b></font> letter used in a <font color="#EF4444"><b>valid</b></font> sentence.]]></string>
+    <string name="scoring_point_2"><![CDATA[2. You get extra points if you use <font color="#EF4444"><b>all</b></font> letters in a tile sequence.]]></string>
+    <string name="scoring_point_3"><![CDATA[3. You get maximum points if you can make a sentence using the letters <font color="#EF4444"><b>as they appear</b></font> in the tile sequence.]]></string>
+    <string name="scoring_point_4">4. A.I. does the marking, take it up with Google/Grok/OpenAI if you\'re not happy with the result! 😉</string>
+
+    <!-- Achievements & Progression Section Strings -->
+    <string name="achievements_title">🏆 Player Achievements</string>
+    <string name="btn_view_label">View</string>
+    <string name="beginner_section_title">Beginner Section</string>
+    <string name="beginner_section_subtitle">Master 3 &amp; 4 letter sequence sentences</string>
+    <string name="progress_intermediate_header">PROGRESS TO INTERMEDIATE TIER</string>
+    <string name="select_sequence_length">SELECT SEQUENCE LENGTH</string>
+    <string name="btn_3_letters">3 Letters\n(Max 105 pts)</string>
+    <string name="btn_4_letters">4 Letters\n(Max 115 pts)</string>
+    <string name="select_round_timer">SELECT ROUND TIMER</string>
+    <string name="timer_30s">30s</string>
+    <string name="timer_60s">60s</string>
+    <string name="timer_90s">90s</string>
+    <string name="btn_start_puzzle">Generate Sequence</string>
+    <string name="beginner_status_unlocked">%1$d / %2$d Achievements Earned — Intermediate Unlocked! 🎉</string>
+    <string name="beginner_status_locked">%1$d / %2$d Achievements Earned (%3$d more needed for Intermediate)</string>
+
+    <string name="intermediate_section_title">Intermediate Section</string>
+    <string name="intermediate_section_subtitle">5 to 7 Tile Challenges (Expert Gate at 130)</string>
+    <string name="expert_tier_gate_header">Expert Tier Gate (130 Achievements)</string>
+    <string name="btn_tile_5">5 Tiles</string>
+    <string name="btn_tile_6">6 Tiles</string>
+    <string name="btn_tile_7">7 Tiles</string>
+    <string name="btn_start_intermediate_puzzle">Start Intermediate Puzzle</string>
+    <string name="achievements_earned_format_130">%1$d / 130 Achievements Earned</string>
+
+    <string name="expert_section_title">Expert Section</string>
+    <string name="expert_section_subtitle">8 to 10 Tile Ultimate Master Challenges</string>
+    <string name="grandmaster_progression_header">Grandmaster Progression (200 Target)</string>
+    <string name="btn_start_expert_puzzle">Start Expert Puzzle</string>
+    <string name="achievements_earned_format_200">%1$d / 200 Achievements Earned</string>
+
+    <string name="profile_account_header">👤 YOUR PROFILE ACCOUNT</string>
+    <string name="welcome_title">WELCOME TO NAMAGRAM</string>
+    <string name="welcome_subtitle">Please enter your nickname to track your stats, scores, and achievements!</string>
+    <string name="hint_enter_nickname">Enter your nickname…</string>
+    <string name="btn_start_playing">START PLAYING</string>
+
+    <!-- Daily Namagram Challenge Hub Strings -->
+    <string name="daily_puzzle_title">📅 Daily Namagram Challenge</string>
+    <string name="daily_puzzle_subtitle">Global synchronized puzzles updated daily for all players.</string>
+    <string name="daily_puzzle_tile_format">%d-Tile Challenge</string>
+    <string name="btn_play_daily">Play</string>
+    <string name="btn_view_daily_master_gallery">🏆 View Daily Master Gallery</string>
+    <string name="daily_master_gallery_title">🏆 Daily Master Gallery</string>
+    <string name="daily_master_gallery_subtitle">Total Master Badges Earned: %d</string>
+    <string name="daily_master_gallery_empty">No Daily Master badges yet!\n\nComplete all 8 tile challenges (3–10) in a single day to earn and collect your date-stamped trophies here.</string>
+    <string name="daily_master_badge_card_title">Daily Master</string>
+    <string name="btn_back_to_challenge">Back to Challenge</string>
+    <string name="profile_required_title">👤 Profile Required</string>
+    <string name="profile_required_message">You must set up a custom player profile and nickname before you can access the Daily Namagram Challenge and earn achievements!</string>
+    <string name="daily_challenge_mode_banner">🏆 DAILY CHALLENGE MODE (%d Tiles)</string>
+    <string name="btn_return_to_daily_challenge">Return to Daily Challenge</string>
+    <string name="daily_puzzle_completed_status">Completed for today ✓</string>
+    <string name="btn_completed">Completed</string>
+    <string name="daily_puzzle_won_status">Passed ✓</string>
+    <string name="daily_puzzle_failed_status">Failed ✗</string>
+    <string name="btn_won">Won</string>
+    <string name="btn_lost">Lost</string>
+    <string name="daily_puzzle_won_subtitle">Passed ✓</string>
+    <string name="daily_puzzle_failed_subtitle">Failed ✗</string>
+    <string name="daily_puzzle_hidden_subtitle">Tap play to reveal today\'s sequence</string>
+    <string name="achievement_daily_master_title">Daily Namagram Master</string>
+    <string name="achievement_daily_master_desc">Conquered all daily tile challenges (3–10) in a single day!</string>
+</resources>

@@ -1,0 +1,61 @@
+ID,Bigram,Type,Category/Tag,Example
+STR-001,of the,Structural,Preposition + Article,Part of the strategy
+STR-002,in the,Structural,Preposition + Article,Deep in the forest
+STR-003,to the,Structural,Preposition + Article,Go to the office
+STR-004,on the,Structural,Preposition + Article,On the table
+STR-005,for the,Structural,Preposition + Article,Good for the community
+STR-006,and the,Structural,Conjunction + Article,The cat and the dog
+STR-007,that the,Structural,Conjunction + Article,He said that the plan worked
+STR-008,is a,Structural,Verb + Article,This is a win
+STR-009,to be,Structural,Infinitivizer + Verb,To be or not to be
+STR-010,with the,Structural,Preposition + Article,Along with the data
+STR-011,at the,Structural,Preposition + Article,Arrived at the station
+STR-012,by the,Structural,Preposition + Article,Passed by the house
+STR-013,from the,Structural,Preposition + Article,Sourced from the web
+STR-014,as a,Structural,Preposition + Article,Acting as a mentor
+STR-015,it is,Structural,Pronoun + Verb,It is raining outside
+STR-016,an individual,Structural,Article + Noun,Every single an individual
+STR-017,in an,Structural,Preposition + Article,In an hour
+STR-018,from a,Structural,Preposition + Article,Letter from a friend
+STR-019,has been,Structural,Verb + Verb,It has been resolved
+STR-020,will be,Structural,Verb + Verb,Dinner will be served
+STR-021,would be,Structural,Verb + Verb,That would be nice
+STR-022,there is,Structural,Adverb + Verb,There is a chance
+STR-023,can be,Structural,Verb + Verb,It can be found
+STR-024,out of,Structural,Preposition + Preposition,Out of order
+STR-025,into the,Structural,Preposition + Article,Step into the room
+STR-026,more than,Structural,Adverb + Conjunction,More than enough
+STR-027,such as,Structural,Adjective + Preposition,Cities such as Dublin
+STR-028,up to,Structural,Preposition + Preposition,Up to code
+STR-029,about the,Structural,Preposition + Article,Thinking about the past
+STR-030,over the,Structural,Preposition + Article,Over the rainbow
+SEM-001,artificial intelligence,Semantic,Technology,Advancements in artificial intelligence
+SEM-002,machine learning,Semantic,Technology,A core machine learning algorithm
+SEM-003,climate change,Semantic,Environment,Global efforts against climate change
+SEM-004,united states,Semantic,Geography,Traveling to the united states
+SEM-005,new york,Semantic,Geography,The bright lights of new york
+SEM-006,social media,Semantic,Culture,Marketing via social media platforms
+SEM-007,stock market,Semantic,Finance,Investing in the stock market
+SEM-008,real estate,Semantic,Finance,Buying a commercial real estate property
+SEM-009,interest rates,Semantic,Finance,Central banks raising interest rates
+SEM-010,credit card,Semantic,Finance,Paying with a credit card
+SEM-011,high school,Semantic,Education,Graduating from high school
+SEM-012,prime minister,Semantic,Politics,A speech by the prime minister
+SEM-013,white house,Semantic,Politics,A press brief at the white house
+SEM-014,public health,Semantic,Healthcare,Measures taken for public health
+SEM-015,mental health,Semantic,Healthcare,Spreading awareness for mental health
+SEM-016,data science,Semantic,Technology,A career path in data science
+SEM-017,user interface,Semantic,Technology,Designing a clean user interface
+SEM-018,source code,Semantic,Technology,Reviewing the application source code
+SEM-019,web development,Semantic,Technology,A course on modern web development
+SEM-020,renewable energy,Semantic,Environment,Investing heavily in renewable energy
+SEM-021,fossil fuels,Semantic,Environment,Phasing out toxic fossil fuels
+SEM-022,electric vehicles,Semantic,Technology,The mass adoption of electric vehicles
+SEM-023,supply chain,Semantic,Business,Disruptions hit the global supply chain
+SEM-024,customer service,Semantic,Business,Contacting our 24/7 customer service
+SEM-025,human resources,Semantic,Business,A policy updated by human resources
+SEM-026,case study,Semantic,Education,Analyzing a detailed case study
+SEM-027,deep learning,Semantic,Technology,Neural networks power deep learning
+SEM-028,cyber security,Semantic,Technology,Prioritizing enterprise cyber security
+SEM-029,cloud computing,Semantic,Technology,Migrating database systems to cloud computing
+SEM-030,operating system,Semantic,Technology,Upgrading the core operating system
